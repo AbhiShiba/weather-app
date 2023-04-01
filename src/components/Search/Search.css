@@ -1,0 +1,14 @@
+.search-bar {
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 21vw;
+    display: flex;
+    justify-content: center;
+    padding: 5px 0;
+}
+
+.search-bar > input {
+    width: 20vw;
+    border: none;
+    outline: none;
+}
