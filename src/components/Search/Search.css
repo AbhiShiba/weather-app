@@ -5,10 +5,25 @@
     display: flex;
     justify-content: center;
     padding: 5px 0;
+    background-color: white;
+    margin: 10px;
 }
 
 .search-bar > input {
     width: 20vw;
     border: none;
     outline: none;
+}
+
+.search {
+    background-color: rgb(165, 193, 246);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.weather-info {
+    margin: 10px;
 }

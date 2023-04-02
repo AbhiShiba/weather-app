@@ -12,7 +12,6 @@ export function Home() {
         {Loading ? "......loading" : 
         <div>
             <HomeScreen/>
-            <Search/>
         </div>}
     </div>
   )
